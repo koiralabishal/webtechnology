@@ -1,4 +1,10 @@
-# Syntax of using CSS:
+## Assignment-2: Create a web document to illustrate the following using CSS:
+                       -Color
+                       -Text formate
+                       -background
+
+## Syntax of using CSS:
+
   - For type selector:-
     tag{
         propery:value;
