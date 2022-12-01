@@ -38,8 +38,10 @@
               font-size: 10px;
         }
         .click:hover{
-            border-bottom: 4px solid gray;
+            /*border-bottom: 4px solid gray;*/
+           border-width: 2px;
             box-shadow: 10px 10px 10px blue;
+            border-color: #2bc99b;
         }
         .disable:hover{
             cursor: not-allowed;
@@ -90,8 +92,17 @@
             border-color:#ffffff;
             border-style: solid;
         }
+        .click2:active{
+            background-color:#00ca99;
+            color: #ffffff;
+        }
         .click2{
-             border-width: 1px;
+            border-width: 1px;
+        }
+        .
+        .click3:active{
+            background-color: #4f5053;
+            color: gray;
         }
         .primary-right-td{
             background-color: #00ca99;
@@ -185,10 +196,10 @@
         <tr>
             <th style="color: #bccfd5;">Press,Hover, Default</th>
             <td></td>
-            <td><button class="click2  primary-left" >Button</button></td>
-            <td><button class="click2 secondary-2nd">Button</button></td>
-            <td><button class="click2 destructive-2nd">Button</button></td>
-            <td class="primary-right-td"><button class="click2 primary-right">Button</button></td>
+            <td><button class=" click click2 primary-left" >Button</button></td>
+            <td><button class=" click click2 secondary-2nd">Button</button></td>
+            <td><button class=" click click2 destructive-2nd">Button</button></td>
+            <td class="primary-right-td"><button class=" click click2 primary-right">Button</button></td>
         </tr>
         <tr>
             <th style="color: #bccfd5;">Disabled</th>
