@@ -1,8 +1,9 @@
 # Assignment-3: Buttons, Border, Color and Pseudo class.
         -Create buttons as per given figure.
-            ![alt text](./Assignment/Assignment-3/buttons.jpg)
+![Buttons](./buttons.png "Buttons")
+
         -Create borders as per given figure.
-            ![alt text](./Assignment/Assignment-3/borders.png)
+![Borders](./borders.png "Borders")
 
  
  # Objective: To create button and borders using HTML and CSS
