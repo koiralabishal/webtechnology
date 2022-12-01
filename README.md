@@ -5,6 +5,6 @@
                        -backgroud
 # Assignment-3: Buttons, Border, Color and Pseudo class.
         -Create buttons as per given figure.
-            ![alt text](./Assignment/Assignment-3/buttons.jpg)
+            ![alt text](https://raw.githubusercontent.com/nishalgurung4/WT-2021/main/assets/images/buttons.png "button")
         -Create borders as per given figure.
-            ![alt text](./Assignment/Assignment-3/borders.png)
+            ![alt text](https://raw.githubusercontent.com/nishalgurung4/WT-2021/main/assets/images/box.png)
