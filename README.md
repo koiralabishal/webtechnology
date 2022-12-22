@@ -20,4 +20,12 @@
 ![Hero](./Assignment/Assignment-4/hero.png)        
 
         -As shown in the figure below, design Navbar section.  
-![Nav](./Assignment/Assignment-4/nav.png)           
+![Nav](./Assignment/Assignment-4/nav.png)  
+# Lab 1: HTML Elements
+    Make a webpage with the following html elements:
+        Nested order and unorder list
+        semantics tags for the layout
+        text formatting tags
+        image, video and audio
+        iframe
+    Can add additional elements and CSS to make the webpage more visually appealing.         
