@@ -22,6 +22,7 @@
         -As shown in the figure below, design Navbar section.  
 ![Nav](./Assignment/Assignment-4/nav.png) 
 # Assignment-5: Develop  a simple calculator using HTML, CSS, and DOM in JS
+# Assignment-6: Explain event bubbling and capturing with an example.
 # Lab 1: HTML Elements
     Make a webpage with the following html elements:
         Nested order and unorder list
