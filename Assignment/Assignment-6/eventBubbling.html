@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+</head>
+<body>
+    <h1>Event Bubbling</h1>
+    <p id="parent">
+       Lorem, <strong id="child">ipsum</strong> dolor sit amet consectetur adipisicing elit. Saepe tempora beatae, consequatur, 
+       commodi amet enim facilis quas minima provident rerum nesciunt nemo pariatur est, recusandae
+       tenetur nisi dolorum sapiente doloribus.
+    </p>
+    <script>
+        document.getElementById("child").addEventListener("click",function() {
+            console.log(`I am Parent`);
+        });
+        document.getElementById("child").addEventListener("click",function() {
+            console.log(`I am Child`);
+        },true);
+    </script>
+
+</body>
+</html>
