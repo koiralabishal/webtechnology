@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation of Form</title>
+    <style>
+      body {
+        background-color: rgb(25, 30, 55);
+      }
+      fieldset {
+        height: 200px;
+        width: 500px;
+        background-color: rgb(61, 112, 31);
+        margin: auto;
+        margin-top: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="action.php">
+      <fieldset>
+        <label for="name">Enter Name:</label>
+        <input type="name" id="name" /><br /><br />
+
+        <label for="mail">Enter Email Address:</label>
+        <input type="email" id="mail" /><br /><br />
+
+        <label for="con">Contact No:</label>
+        <input type="number" id="con" />
+        <br /><br />
+        <label for="cnam">Country Name:</label>
+        <input type="name" id="cnam" />
+        <br /><br />
+        <input type="button" value="submit" id="submit" />
+      </fieldset>
+    </form>
+    <script>
+      let el1 = document.getElementById("mail");
+      let el2 = document.getElementById("name");
+      let el3 = document.getElementById("cnam");
+      let el4 = document.getElementById("con");
+      document.getElementById("submit").addEventListener("click", () => {
+        val1 = el1.value;
+        let atposition = val1.lastIndexOf("@");
+        let dotposition = val1.lastIndexOf(".");
+        if (
+          el1.value == "" ||
+          el2.value == "" ||
+          el4.value == "" ||
+          el3.value == "" ||
+          atposition < 1 ||
+          dotposition < atposition + 2 ||
+          dotposition + 2 >= el1.length
+        ) {
+          alert("incomplete form..........");
+        } else {
+          alert("form submitted successfully....... :)");
+        }
+      });
+    </script>
+  </body>
+</html>
